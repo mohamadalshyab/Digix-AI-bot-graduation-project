@@ -1,0 +1,41 @@
+/**
+ * src/styles/themes.css
+ *
+ * DIGIX AI brand colors — purple-to-blue gradient identity.
+ * All other CSS files import variables from here via @import.
+ */
+
+:root {
+  /* Brand gradient */
+  --gradient-brand: linear-gradient(to right, #b133ff, #6196ff);
+
+  /* Solid brand colors */
+  --color-primary:       #6196ff;
+  --color-primary-light: #b133ff;
+  --color-primary-dark:  #4a78e8;
+
+  /* Surfaces */
+  --color-bg:      #ffffff;
+  --color-surface: #f4f4f8;
+  --color-border:  #e3e3e3;
+
+  /* Text */
+  --color-text-primary:   #000000;
+  --color-text-secondary: #555555;
+  --color-text-inverse:   #ffffff;
+
+  /* Message bubbles */
+  --color-bubble-user:      #6196ff;   /* overridden to gradient in widget.css */
+  --color-bubble-bot:       #f0f0f6;
+  --color-bubble-bot-text:  #000000;
+
+  /* Status */
+  --color-error:   #e53e3e;
+  --color-success: #38a169;
+
+  /* Sizing */
+  --widget-width:     320px;
+  --widget-height:    480px;
+  --border-radius:    16px;
+  --border-radius-sm: 8px;
+}

@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+chroma_data/
+venv/
+DOCUMENTATION.md
+prgress.md
+README_DELIVERY.md
+CONTEXT.md
+CLAUDE.md
+__pycache__
